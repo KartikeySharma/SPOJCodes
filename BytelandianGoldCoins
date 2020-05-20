@@ -1,0 +1,25 @@
+#include <iostream>
+#include <algorithm>
+#include <map>
+using namespace std;
+typedef long long int ll;
+map<ll,ll>m;
+ll byte(ll n)
+{
+   if(n<12)
+     return n;
+   if(m.count(n))
+       return m[n];
+   m[n]=byte(n/3)+byte(n/2)+byte(n/4);
+   return m[n];
+}
+
+int main()
+{ 
+  ll n;
+	while(cin>>n)
+    {
+        cout<<byte(n)<<"\n";
+    }
+
+}
