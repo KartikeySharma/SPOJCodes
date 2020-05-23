@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	while(true)
+	{
+		scanf("%d",&n);
+		printf("%d\n",n);
+		fflush(stdout);
+		if(n==42)
+			break;
+	}// your code goes here
+	return 0;
+}
