@@ -1,0 +1,28 @@
+/*
+Code by
+
+ ____        _____
+|    |      /    /
+|    |     /    /
+|    |    /    /
+|    |   /    /
+|    |__/    /
+|      	    /    ARTIKEY SHARMA
+|     __    \	    
+|    |  \    \    
+|    |   \    \
+|    |    \    \
+|    |     \    \
+|____|	    \____\
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int i,j;
+	cin>>i>>j;
+	cout<<i+j;// your code goes here
+	return 0;
+}
