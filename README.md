@@ -6,4 +6,4 @@ It has problems of varying diffculty with type tags like ad-hoc,greedy,etc.
 
 # About Me
 I am Kartikey Sharma and I am currently pursuing EE at IIT Goa. I live in Delhi and love to explore and learn new concepts. SPOJ has problems that help me revise and chisel my skills. Although this is my first repository, I plan on coding and posting my answers here.
-All the solutions provided are in C++ language
+All the solutions provided are in C++ or C language
