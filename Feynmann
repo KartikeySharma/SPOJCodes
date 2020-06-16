@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n,inf=0;
+	while(inf==0)
+	{
+		cin>>n;
+		if(n==0)
+			break;
+		int sum=0,dimension=0;
+		while(dimension<n)
+		{
+			for(int i=0;i<n-dimension;i++)
+			{
+				for(int j=0;j<n-dimension;j++)
+				{
+					sum++;
+				}
+			}
+			dimension++;
+		}
+		cout<<sum<<endl;
+	}
+
+ return 0;
+}
